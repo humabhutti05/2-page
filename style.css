@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .cover {
+    position: relative;
+    background-image: url('https://www.howtofire.com/wp-content/uploads/where-to-get-quarters.png');
+    height: 600px;
+    background-size: cover;
+  
+  }
+    
+  .nav{
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    list-style-type: none;
+    float: left;
+  }
+  
+  .nav li{
+    margin: 5px;
+    padding: 10px;
+    overflow: hidden;
+    list-style-type: none;
+    text-align: center;
+  }
+  .transparent-navbar {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    float: right;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    color: rgb(63, 60, 60);
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-right: 30px;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  
+  li {
+    margin-right: 30px;
+    float: right;
+    padding: 10px;
+    padding-top: 0px;
+  }
+  li:hover{
+     color:  rgb(147, 161, 161);
+     cursor: pointer;
+  }
+
+  .content-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+    margin-top: 80px;
+  }
+
+
+  .col {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .yellow-container {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+  }
+  .content{
+    margin-top: 90px;
+    border-radius: 20px;
+    margin-left: 40px;
+  }
+
+  .sub-heading {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .container-2{
+      padding: 12px;
+      border-radius: 5px;
+      background-color: white;
+      cursor: pointer;
+      
+  }
+
+  .third-div {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10%;
+   margin-top: 60px;
+  }
+
+  .third-col {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+  }
+  .container-3{
+    padding: 12px;
+      border-radius: 5px;
+      background-color: rgb(238, 223, 10);
+      margin-left: 150px;
+      cursor: pointer;
+      color: white;
+      border: none;
+  }
+  em{
+    color: rgba(226, 194, 12, 0.973);
+    cursor: pointer;
+  }
